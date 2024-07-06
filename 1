@@ -1,0 +1,9 @@
+print(women)
+x <- women$height
+y <- women$weight
+mean(x)
+cor(x,y)
+print(cor(x,y,method="pearson"))
+print(cor(x,y,method="spearman"))
+plot(x, y, main = "Main title", xlab = "X axis Height", ylab = "Y axis Weight", pch = 19, frame =
+FALSE)
